@@ -1,0 +1,22 @@
+[icons]
+# font awesome
+TelegramDesktop = ""
+Alacritty = ""
+whatsdesk = ""
+qBittorrent = ""
+Thunar = ""
+Chromium = ""
+firefox = ""
+
+[aliases]
+"TelegramDesktop" = " telegram"
+"Alacritty" = " terminal"
+"whatsdesk" = " whatsapp"
+"Thunar" = " thunar"
+"/usr/bin/chromium-snapshot-bin" = "   chromium"
+"Chromium" = " chromium"
+"qBittorrent" = " qbittorrent"
+
+
+[options]
+remove_duplicates = true

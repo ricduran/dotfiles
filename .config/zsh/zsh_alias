@@ -1,0 +1,27 @@
+# Aliases
+alias ls='lsd '
+alias la='lsd -lah'
+alias ll='lsd -l'
+alias free='free -h'
+alias df='duf'
+alias ka='killall'
+alias vim='nvim'
+alias vi='nvim'
+alias nv='nvim'
+alias dmesg='sudo dmesg -H --color'
+alias gs='git status'
+alias yay='paru'
+alias less='less -I '
+alias bye='sudo poweroff'
+alias reboot='sudo reboot'
+alias update='paru -Syu --noconfirm'
+alias cleanup='paru -Rns $(paru -Qtdq)'
+alias cleanall='paru -Qqd | paru -Rsu -'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias kc="kubectl"
+
+# ssh aliases
+alias ssh="TERM=xterm-256color $(which ssh)"
+alias castor='ssh ricj@castor'
+alias pix='ssh ricj@pix'
+alias lexx='ssh ricj@lexx'
