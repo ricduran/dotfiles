@@ -208,10 +208,13 @@ bindsym $mod+r mode "resize"
 
 
 
+
+exec --no-startup-id xrandr -s 2560x1440_42.00 
 exec_always --no-startup-id ~/.config/i3/polybar/launch.sh 
 exec --no-startup-id xsetroot -d :0 -cursor_name left_ptr
 exec --no-startup-id picom &
-exec --no-startup-id xrandr -r 144 &
+#exec --no-startup-id clipit
+#exec --no-startup-id autotiling &
 exec --no-startup-id nitrogen --restore &
 exec --no-startup-id /usr/bin/i3wsr --icons awesome --config $HOME/.config/i3wsr/config.toml &
 
