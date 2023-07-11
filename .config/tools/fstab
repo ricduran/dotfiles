@@ -1,0 +1,15 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=1178fae3-8e37-4d88-992d-448e4bfc6a4b	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1
+UUID=45F0-A969      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+ark:/mnt/user/data	/mnt/ark/data	nfs	defaults	0	0
+ark:/mnt/user/sports	/mnt/ark/sports	nfs	defaults	0	0
+ark:/mnt/user/series	/mnt/ark/series	nfs	defaults	0	0
+ark:/mnt/user/movies	/mnt/ark/movies	nfs	defaults	0	0
+ark:/mnt/user/isos	/mnt/ark/isos	nfs	defaults	0	0
+ark:/mnt/user/music	/mnt/ark/music	nfs	defaults	0	0
